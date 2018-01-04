@@ -76,8 +76,8 @@ header nav li {
     padding-left: 25px;
 }
 .about {
-    background-color:#2c3e50;
-    color: white;
+    background-color:#ecf0f1;
+    color: #2c3e50;
     padding: 60px;
     height: 100vh;
 } 
@@ -117,15 +117,52 @@ header nav li {
     letter-spacing: 1px;
 }
 .button-services {
-    margin: 20px;
+    margin: 10px;
     padding: 10px 22px 10px 22px;
     border: 3px solid #16a085;
     background-color: transparent;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: white;
+    color: #2c3e50;
 }
 
 
+.skills img {
+    width: 150%;
+}
 
+.skills p {
+    float: none !important;
+    line-height: 24px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    width: 80%;
+
+
+}
+
+.icon-big {
+    font-size: 80px;
+    color: #16a085;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.skills h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+   
+}
+
+.skills {
+    background-color: #34495e;
+    color: white;
+     padding: 50px 100px 200px 100px;
+     font-size: 13px;
+}
 

@@ -98,6 +98,7 @@ header nav li {
     text-transform: uppercase;
     letter-spacing: 3px;
     padding-bottom: 50px;
+    color:#16a085;
 
 }
 
@@ -151,6 +152,11 @@ header nav li {
     padding: 30px;
 }
 
+.icon-small {
+    color: #16a085;
+    padding: 10px;
+}
+
 .skills h3 {
     text-transform: uppercase;
     text-align: center;
@@ -166,7 +172,6 @@ header nav li {
      font-size: 13px;
 }
 .design {
-    margin-bottom: 120px;
     box-sizing: border-box;
 }
 
@@ -197,4 +202,43 @@ header nav li {
     -webkit-transition-timing-function: ease-in-out;
     -webkit-transition-duration: .2s;
   
+}
+
+.abilities{
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../img/photo-1486748719772-dac71e23eaa1.jpg);
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.portfolio h3{
+    text-align: center;
+    margin:50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+    color:#16a085;
+}
+
+.services {
+    height: 100vh;
+}
+
+.services img {
+    width: 100%;
+
+}
+
+.services .list-services {
+    padding-left: 100px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.services h3 {
+    padding-left: 80px;
+    color: #16a085;
+    line-height: 50px;
 }

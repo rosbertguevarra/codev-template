@@ -205,8 +205,8 @@ header nav li {
 }
 
 .abilities{
-    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../img/photo-1486748719772-dac71e23eaa1.jpg);
-    padding-bottom: 300px;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/photo-1486748719772-dac71e23eaa1.jpg);
+    padding-bottom: 100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -241,4 +241,44 @@ header nav li {
     padding-left: 80px;
     color: #16a085;
     line-height: 50px;
+}
+
+.services h2 {
+    text-align: center;
+    margin:50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+    color:#16a085;
+}
+
+.offer {
+    margin-top: 100px;
+    box-sizing: border-box;
+   
+}
+
+.offer h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+.offer p {
+    text-align: center;
+    font-size: 10px;
+}
+
+.offer:hover {
+    border: 4px solid #2c3e50;
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .2s; 
+
+}
+.testimonials {
+    background-color: #16a085;
+    padding-bottom: 200px;
+    color: white;
 }

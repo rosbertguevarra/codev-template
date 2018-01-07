@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -10,7 +11,7 @@ body {
 	overflow-x: hidden; /* when media 500px or less, text overflows screen */
 }
 
-header {
+.banner {
     background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../img/photo-1415356838286-df6fd593e8b3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,57 +24,104 @@ header {
   
 }
 
-nav {
-    padding: 10px;
-    float: right;
+
+.sticky .main-navigation {
+    margin-top: 10px;
 }
 
-nav li {
+
+.main-navigation {
+    float: right;
+    color: white;
+    word-spacing: 40px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 55px;
+}
+
+.main-navigation li {
     display: inline-block;
-    padding: 30px;
-    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.main-navigation a {
+    text-decoration: none;
+    color: white;
     
 }
 
-nav a{
+.main-navigation li a:hover,
+.main-navigation li a:active {
+	border-bottom: 2px solid #16a085; /* Visible on hover */
+}
+
+
+.sticky .main-navigation li a:link,
+.sticky .main-navigation li a:visited {
+    padding: 15px 0;
     color: white;
-    text-decoration: none;
+}
+.home-js{
+    display: block;
+    color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #16a085;
+    z-index: 10;
+    transition: all 0.5s ease;
   
+
 }
 
-    .title {
-    font-size: 50px;
-    margin-left: 30px;
-    margin-top: 20px;
-    float:left;
+.sticky .main-navigation {
+    margin-top: 18px;
 }
 
 
-header nav li {
-    list-style: none;
-    text-decoration: none;
+.sticky li {
+    display: inline-block;
+}
+
+
+.sticky .main-navigation li a:link,
+.sticky .main-navigation li a:visited {
+    padding: 15px 0;
     color: white;
 }
 
-.hero-text {
-    margin-top: 120px;
+
+
+
+
+.banner h3 {
     float: left;
     line-height: 80px;
-}
-
-.hero-text h3 {
     text-transform: uppercase;
     font-size: 60px;
     letter-spacing: 5px;
-    padding-left: 25px;
+ 
     width: 80%;
-
-
+    padding-top: 150px;
 }
 
-.hero-text p {
+
+
+.banner p {
     letter-spacing: 5px;
-    padding-left: 25px;
+    padding-top: 20px;
+    padding-left: 86px;
+    float: left;
 }
 .about {
     background-color:#ecf0f1;
@@ -84,7 +132,6 @@ header nav li {
 
 .about img{
     width: 90%;
-    float:  right;
     margin-bottom: 100px;
     padding-left: 100px;
     
@@ -93,8 +140,7 @@ header nav li {
 
 
 .about h2{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
     padding-bottom: 50px;
@@ -103,15 +149,12 @@ header nav li {
 }
 
 .about h3 {
-    display: flex;
-    justify-content: flex-start;
     margin: 20px;
 
 }
 
 .about p {
-    display: flex;
-    justify-content: flex-start;
+    
     width: 120%;
     margin: 20px;
     line-height: 25px;

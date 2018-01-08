@@ -20,16 +20,128 @@
     }
     
     .banner h3 {
-        font-size: 40px;
+		width: 70%;
+		font-size: 35px;
+		margin-top: 110px;
+	
     }
 
     .banner  {
         padding-bottom: 510px;
-    }
+	}
+	.about h2 {
+		font-size: 25px;
+		padding:10px;
+	}
+	
+	.about h3 {
+		font-size: 15px;
+	}
+
+	.we-do h3 {
+		font-size: 15px;
+	}
+
+	.we-do p {
+		font-size: 12px;
+	}
+	.porfolio img {
+		width: 100%;
+	}
+	
+	.services {
+		padding-bottom: 500px;
+	}
+	.services h2 {
+		margin-top:0px;
+		font-size: 18px;
+		padding:10px;
+		
+	}
+
+	.services h3 {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.services li {
+		font-size: 12px;
+		
+	}
+
+	.abilities {
+		padding-top: 0px;
+	}
+
+	.testimonials h3 {
+		font-size: 18px;
+		padding:15px;
+	}
+	.testimonials p {
+		font-size: 12px;
+	}
+
+	.testimonials h4 {
+		font-size: 12px;
+	}
+
+	.testimonials p {
+		padding:20px;
+	}
+	
 }
 
 @media only screen and (max-width: 767px) {
+	.banner h3 {
+		line-height: 60px;
+		font-size: 30px;
+		
+	}
+
+	.about {
+		padding-bottom: 500px;
+	}
+	.we-do p{
+		font-size: 12px;
+		
+	}
+	.icon-big {
+		font-size: 40px;
+	}
+	.we-do:hover {
 	
+		-webkit-transition-timing-function: none;
+		-webkit-transition-duration: none;
+		position:relative;
+	}
+
+	.services {
+		padding-bottom: 800px;
+		
+	}
+	.services h3{
+		padding-top: 50px;
+		font-size: 20px;
+		line-height: 30px;
+		
+
+	}
+	.services li {
+		font-size: 15px;
+		
+	}
+	.services ul {
+		padding-left: 10px;
+	}
+	
+
+	.offer:hover {
+		position: relative;
+	}
+	.input-cred {
+		display:block;
+		text-align:center;
+	}
+
 }
 
 @media only screen and (max-width: 480px) {
